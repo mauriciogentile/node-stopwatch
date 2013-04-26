@@ -1,0 +1,23 @@
+{
+  "name": "node-stopwatch",
+  "version": "0.0.1",
+  "description": "A stopwatch utility",
+  "main": "./lib/stopwatch",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "sleep": ">=1.1.0",
+    "nodeunit": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": ["util","node","stopwatch","instrumentation","node.js"],
+  "author": "Mauricio Gentile",
+  "license": "MIT",
+  "readmeFilename": "Readme.MD"
+}
