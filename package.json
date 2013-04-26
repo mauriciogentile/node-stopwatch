@@ -1,7 +1,7 @@
 {
   "name": "node-stopwatch",
   "version": "0.0.1",
-  "description": "A stopwatch utility",
+  "description": "A stopwatch utility for node.js apps",
   "main": "./lib/stopwatch",
   "directories": {
     "test": "tests"
