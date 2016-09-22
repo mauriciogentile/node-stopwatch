@@ -30,6 +30,23 @@ module.exports["should return elapsed time/ticks not in zero when started"] = fu
 	test.done();
 };
 
+module.exports["should return 0 ticks when started if track ticks is false"] = function(test) {
+	test.expect(2);
+
+	var stopwatch = Stopwatch.create();
+
+	stopwatch.start(false);
+
+	sleep.sleep(2);
+
+	stopwatch.stop();
+
+	test.equal(stopwatch.isRunning, false);
+	test.equal(stopwatch.elapsedTicks, 0);
+
+	test.done();
+};
+
 module.exports["should return elapsed time/ticks not in zero when restarted"] = function(test) {
 	test.expect(3);
 
